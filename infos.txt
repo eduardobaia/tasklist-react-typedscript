@@ -1,0 +1,23 @@
+projecto 
+
+--template typescript
+
+
+npm install  styled-components
+
+npm install -D @types/styled-components
+
+
+--------------
+Em typescript
+todas as props tem que ser especificadas:
+
+
+type Props ={
+    item: Item
+}
+
+export const ListItem = ({item}: Props) => {
+
+
+    
